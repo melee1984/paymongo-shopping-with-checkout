@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	background-color: rgba(52, 144, 220, 0.25) !important;
+}
+.container {
+	max-width: 1400px !important;
+}
+
+.img {
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.img img {
+	width: 100%;
+	height:200px;
+	border: 1px solid #e8e8e8;
+	padding:5px;
+}
+
+.price {
+	font-weight:bold;
+}
+
+#summary {
+	padding: 20px;
+	background-color: #FFF;
+	min-height: 550px;
+
+	.total {
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
+#checkout{
+	padding: 20px;
+	background-color: #FFF;
+	min-height: 550px;	
+	.hide {
+		display:none;
+	}
+}
