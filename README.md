@@ -1,5 +1,5 @@
 
-I am trying to replicate a simple shopping cart without connection to the database, we also create a simple cart summary which you can see the total amount. Once the Cart is ready we can proceed to the Payment Gateway which uses Payment CreditCart. 
+I am trying to replicate a simple shopping cart without connection to the database, We also created a simple summary cart which you can see the selected Items and total amount. Once the Cart is ready we can proceed to the Checkout which uses CreditCart as our Payment Gateway. 
 
 ## Tools
 
