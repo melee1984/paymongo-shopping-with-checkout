@@ -14,6 +14,10 @@ I am trying to replicate a simple shopping cart without connection to the databa
 
 - Array of products 
 
+## Security
+
+CSRF Protection
+
 ## About 
 
 - Simple shopping cart page with Add to cart and checkout functionality.
