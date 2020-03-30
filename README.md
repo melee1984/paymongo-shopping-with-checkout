@@ -1,13 +1,13 @@
 
 ## Tools
 
-Laravel Framework 
-Vuejs
-Bootstrap 
-Axios
+- Laravel Framework 
+- Vuejs
+- Bootstrap 
+ - Axios
 
-luigel/laravel-paymongo - Payment Gateway Integration 
-vue-credit-card-validation - CreditCard validation 
+- luigel/laravel-paymongo - Payment Gateway Integration 
+- vue-credit-card-validation - CreditCard validation 
 
 ## About 
 
