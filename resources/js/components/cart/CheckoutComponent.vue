@@ -154,8 +154,7 @@
                     ccnumber: this.cardNumber,
                     expiry: this.cardExpiry,
                     cvc: this.cardCvc,
-                    basket: item,
-                    _token: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+                    basket: item
                 }).then(function (response) {
                     console.log('Here');
                     self.completePayment = true;

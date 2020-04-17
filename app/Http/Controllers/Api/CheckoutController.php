@@ -49,6 +49,8 @@ class CheckoutController extends Controller
         $exp_month = intval($exp_year[0]);
         $exp_year = intval($exp_year[1]);
 
+        $email_address = "lparba@gmail.com";
+
        // Create Token 
         try {
 
@@ -59,6 +61,7 @@ class CheckoutController extends Controller
                 'cvc' => $cvc,
                 'billing' => [
                     'name' => $cname,
+                    'emaail' => $email_address
                 ],
             ]); 
 
