@@ -6,7 +6,7 @@
                     <div class="col-md-3 mb-3" v-for="product in productList">
                         <div class="card">
                             <div class="img">
-                                <img :src="'http://checkout.test/products/'+product.image" clas="img-fluid p-2">
+                                <img :src="'http://checkout.test/products/'+product.image" clas="img-responsive p-2">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">

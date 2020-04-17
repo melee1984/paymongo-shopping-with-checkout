@@ -61,7 +61,7 @@ class CheckoutController extends Controller
                 'cvc' => $cvc,
                 'billing' => [
                     'name' => $cname,
-                    'emaail' => $email_address
+                    'email' => $email_address
                 ],
             ]); 
 
